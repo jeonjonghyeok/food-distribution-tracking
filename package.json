@@ -1,0 +1,34 @@
+{
+  "name": "flash",
+  "version": "1.0.0",
+  "description": "hweb2",
+  "main": "init.js",
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "morgan": "^1.9.1",
+    "serialport": "^8.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js --delay 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeonjonghyeok/flash.git"
+  },
+  "author": "Jeon jong hyeok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeonjonghyeok/flash/issues"
+  },
+  "homepage": "https://github.com/jeonjonghyeok/flash#readme"
+}
