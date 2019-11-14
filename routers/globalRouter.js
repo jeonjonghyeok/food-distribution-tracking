@@ -1,6 +1,6 @@
 import express from "express";
 import router from "../router";
-import {home,postSignin,getSignin,getLogin,postLogin,logout} from "../controllers/userController";
+import {home,postSignin,getSignin,getLogin,postLogin,logout} from "../controllers/userController.js";
 const globalRouter = express.Router();
 
 globalRouter.get(router.home,home);

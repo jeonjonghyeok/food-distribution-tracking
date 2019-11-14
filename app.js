@@ -3,22 +3,20 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
-import userRouter from "./routers/userRouter";
 import globalRouter from "./routers/globalRouter";
-import searchRouter from "./routers/searchRouter";
 
 const app = express();
-var SerialPort = require('serialport'),
-    portName = 'COM4',
-    sp = new SerialPort(portName),
-    sensorVal = 0;
-sp.on('open', function(){
-    console.log('connected...');
-    sp.on('data', function(data){
-		console.log(data.toString());
-    });
+// var SerialPort = require('serialport'),
+//     portName = 'COM4',
+//     sp = new SerialPort(portName),
+//     sensorVal = 0;
+// sp.on('open', function(){
+//     console.log('connected...');
+//     sp.on('data', function(data){
+// 		console.log(data.toString());
+//     });
 
-});
+// });
 
 app.set('views', __dirname + '/views');
 app.set('view engine','html');
@@ -31,7 +29,5 @@ app.use(helmet());
 app.use(morgan("dev")); //어떤 종류의 접속인지 console창에보여줌 common,dev,tiny등등
 
 app.use("/", globalRouter);
-app.use("/user", userRouter);
-app.use("/search",searchRouter);
 
 export default app;
