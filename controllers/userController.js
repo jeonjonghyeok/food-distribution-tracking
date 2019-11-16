@@ -1,6 +1,7 @@
 import routes from "../router";
 
 export const home = (req,res) => res.render("index.html");
+export const bbq = (req,res) => res.render("contact.html");
 export const getSignin = (req,res) => {
     res.render("signin.html");
 }
