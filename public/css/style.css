@@ -2792,7 +2792,7 @@ h6 {
   .copy_right_text p a {
     color: #fa333f; }
 /*내가 만든 라인들*/
-.square h1{
+.text-square {
     color: black;
     font-size:42px;
     text-align: center;
@@ -2898,21 +2898,25 @@ background: none;
   .container1 {
     max-width: 1170px; } }
 .text-1{
+    color: black;
     padding-left:  80px;
     margin-top: -500px;
     z-index: 2;
 }
 .text-2{
-    padding-left:  100px;
+    color: black;
+    padding-left:  110px;
     margin-top: 380px;
     z-index: 2;
 }
 .text-3{
-    padding-left: 900px;
+    color: black;
+    padding-left: 920px;
     margin-top: -470px;
     z-index: 2;
 }
 .text-4{
+    color: black;  
     padding-left:  925px;
     margin-top: 380px;
     z-index: 2;
