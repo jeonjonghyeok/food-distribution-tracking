@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-:root {
+ :root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -9308,6 +9308,42 @@ a.text-dark:hover {
     .table .thead-dark th {
         color: inherit;
         border-color: #dee2e6
+    }
+}
+/*내가 추가 한것들*/
+.img-fluid-1 {
+    max-width: 100%;
+    height: auto;
+}
+.container1 {
+    width:  200%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .container1 {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container1 {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container1 {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container1 {
+        max-width: 1140px
     }
 }
 

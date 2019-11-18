@@ -42,6 +42,7 @@ Table of Content:
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -339,6 +340,16 @@ button:focus {
         margin: auto; }
       .home_banner_area .banner_inner .banner_content .main_btn {
         margin-top: 40px; }
+.home_banner_area .banner_inner .banner_content .search{
+   background:    
+    color:white;
+    font-size:20px;
+    font-family: 'Yeon Sung', cursive;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    margin-top:20px;
+}
 
 .blog_banner {
   min-height: 660px;
@@ -354,7 +365,7 @@ button:focus {
     min-height: 660px;
     z-index: 1; }
     .blog_banner .banner_inner .overlay {
-      background: url(../views/img/banner/banner-2.jpg) no-repeat scroll center center;
+      background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
       opacity: .5;
       height: 125%;
       position: absolute;
@@ -390,7 +401,7 @@ button:focus {
   background: #000;
   margin-bottom: 120px; }
   .banner_area .box_1620 {
-    background: url(../views/img/banner/banner.jpg) no-repeat scroll center center;
+    background: url(../img/banner/banner.jpg) no-repeat scroll center center;
     background-size: cover;
     min-height: 360px;
     border-radius: 12px;
@@ -1002,7 +1013,7 @@ button:focus {
   position: relative; }
   .reservation_form_area .res_form_inner:before {
     content: "";
-    background: url(../views/img/contact-shap-1.png);
+    background: url(../img/contact-shap-1.png);
     position: absolute;
     left: -125px;
     height: 421px;
@@ -1011,7 +1022,7 @@ button:focus {
     transform: translateY(-50%); }
   .reservation_form_area .res_form_inner:after {
     content: "";
-    background: url(../views/img/contact-shap-2.png);
+    background: url(../img/contact-shap-2.png);
     position: absolute;
     right: -125px;
     height: 421px;
@@ -2075,7 +2086,7 @@ h6 {
   color: #222222; }
 
 .primary-checkbox input:checked + label {
-  background: url(../views/img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
   border: none; }
 
 .confirm-checkbox {
@@ -2109,7 +2120,7 @@ h6 {
   border: 1px solid #f1f1f1; }
 
 .confirm-checkbox input:checked + label {
-  background: url(../views/img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center center/cover;
   border: none; }
 
 .disabled-checkbox {
@@ -2147,7 +2158,7 @@ h6 {
   z-index: 3; }
 
 .disabled-checkbox input:checked + label {
-  background: url(../views/img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
   border: none; }
 
 .primary-radio {
@@ -2181,7 +2192,7 @@ h6 {
   border: 1px solid #f1f1f1; }
 
 .primary-radio input:checked + label {
-  background: url(../views/img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
   border: none; }
 
 .confirm-radio {
@@ -2215,7 +2226,7 @@ h6 {
   border: 1px solid #f1f1f1; }
 
 .confirm-radio input:checked + label {
-  background: url(../views/img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none; }
 
 .disabled-radio {
@@ -2262,7 +2273,7 @@ h6 {
   padding: 0px; }
 
 .disabled-radio input:checked + label {
-  background: url(../views/img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none; }
 
 .default-select {
@@ -2498,12 +2509,13 @@ h6 {
         margin-right: -67px;
         position: relative;
         z-index: 2; }
-      .h_blog_item .h_blog_text .h_blog_text_inner h4 {
-        color: #222222;
-        font-size: 42px;
-        margin-bottom: 15px; }
-      .h_blog_item .h_blog_text .h_blog_text_inner p {
-        margin-bottom: 30px; }
+
+.h_blog_item .h_blog_text .h_blog_text_inner.center {
+        margin-left: -34px;
+        margin-right: -34px;
+        position: relative;
+        z-index: 2; }
+
 
 /* End Gallery Area css
 ============================================================================================ */
@@ -2780,6 +2792,134 @@ h6 {
   margin-top: 60px; }
   .copy_right_text p a {
     color: #fa333f; }
+/*내가 만든 라인들*/
+.square h1{
+    color: black;
+    font-size:42px;
+    text-align: center;
+}
+
+.h_blog_item .h_blog_text .h_blog_text_inner h4 {
+        color: #222222;
+        font-size: 42px;
+        margin-bottom: 15px; }
+.h_blog_item .h_blog_text .h_blog_text_inner p {
+        margin-bottom: 30px; }
+
+.building-d {
+  position: absolute;
+padding-top:0px;
+  top: 1375px;
+  left: 465px;
+  text-align: center;
+    z-index: 2;
+}
+
+.building-d:before {
+  content: ' ';
+  display: block;
+  height: 50%;
+}
+.building{
+    padding: 0;
+    border: none;
+    background: none;
+}
+.chicken-d {
+  position: absolute;
+padding-top:0px;
+    padding-left:100px;
+  top: 1375px;
+  left: 1195px;
+  text-align: center;
+    z-index: 2;
+}
+
+.chicken-d:before {
+  content: ' ';
+  display: block;
+  height: 50%;
+}
+.chicken{
+    padding: 0;
+border: none;
+background: none;
+}
+.restaurant-d {
+  position: absolute;
+padding-top:0px;
+  top: 1120px;
+  left: 1295px;
+  text-align: center;
+    z-index: 2;
+}
+.restaurant{
+    padding: 0;
+border: none;
+background: none;
+}
+
+.restaurant-d:before {
+  content: ' ';
+  display: block;
+  height: 50%;
+}
+.truck-d {
+  position: absolute;
+padding-top:0px;
+  top: 1120px;
+  left: 465px;
+  text-align: center;
+    z-index: 2;
+}
+
+.truck-d:before {
+  content: ' ';
+  display: block;
+  height: 50%;
+}
+.truck{
+    padding: 0;
+border: none;
+background: none;
+}
+.text-square{
+    margin-top:-100px;
+    text-align: center;
+     max-width: 670px;
+  margin: 0px auto 75px; }
+}
+.text-square h1 {
+    font-family: "PT Serif", serif;
+    font-size: 42px;
+    color: #222222;
+    margin-bottom: 15px; }
+
+@media (min-width: 1200px) {
+  .container1 {
+    max-width: 1170px; } }
+.text-1{
+    padding-left:  80px;
+    margin-top: -500px;
+    z-index: 2;
+}
+.text-2{
+    padding-left:  100px;
+    margin-top: 380px;
+    z-index: 2;
+}
+.text-3{
+    padding-left: 900px;
+    margin-top: -470px;
+    z-index: 2;
+}
+.text-4{
+    padding-left:  925px;
+    margin-top: 380px;
+    z-index: 2;
+}
+
+
 
 /* End Footer Area css
 ============================================================================================ */
