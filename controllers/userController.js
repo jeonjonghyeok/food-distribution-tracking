@@ -5,6 +5,12 @@ export const bbq = (req,res) => res.render("bbq.html");
 export const getSignin = (req,res) => {
     res.render("signin.html");
 }
+export const restaurant = (req,res) => res.render("h-Restaurant.html");
+export const chicken = (req,res) => res.render("h-Chicken.html");
+export const building = (req,res) => res.render("h-Building.html");
+export const truck = (req,res) => res.render("h-Truck.html");
+
+
 export const postSignin = (req,res) => {
     const {
         body: {id,password,password2}

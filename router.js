@@ -5,6 +5,10 @@ const SIGNIN = "/signin";
 const LOGIN = "/login";
 const LOGOUT = "/logout";
 const BBQ = "/bbq";
+const RESTAURANT = "/restaurant";
+const TRUCK = "/truck";
+const BUILDING = "/building";
+const CHICKEN = "/chicken";
 
 // users
 
@@ -16,7 +20,11 @@ const routes = {
     login: LOGIN,
     logout: LOGOUT,
     users : USERS,
-    bbq : BBQ
+    bbq : BBQ,
+    restaurant : RESTAURANT,
+    truck : TRUCK,
+    building : BUILDING,
+    chicken : CHICKEN
 };
 
 
