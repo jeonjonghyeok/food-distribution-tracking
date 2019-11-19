@@ -5,6 +5,7 @@ const SIGNIN = "/signin";
 const LOGIN = "/login";
 const LOGOUT = "/logout";
 const BBQ = "/bbq";
+const HTRUCK = "/htruck";
 
 // users
 
@@ -16,7 +17,8 @@ const routes = {
     login: LOGIN,
     logout: LOGOUT,
     users : USERS,
-    bbq : BBQ
+    bbq : BBQ,
+    htruck : HTRUCK
 };
 
 
