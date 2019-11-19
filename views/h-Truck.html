@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>hyperledger</title>
+        <title>Hyperledger</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -37,13 +37,20 @@
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="/">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
+								<li class="nav-item"><a class="nav-link" href="/login"onclick="window.open(this.href,'','width=510, height=620, scrollbars=yes'); return false;">login</a></li> 
+								<li class="nav-item submenu dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a>
+										<li class="nav-item"><a class="nav-link" href="project-details.html">Project Details</a></li>
+									</ul>
+								</li> 
 								<li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Participants</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="blog.html">Producer</a></li>
 										<li class="nav-item"><a class="nav-link" href="single-blog.html">Distributors</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="single-blog.html">Franchise</a></li>
+										<li class="nav-item"><a class="nav-link" href="single-blog.html">Franchise</a></li>
 									</ul>
 								</li> 
 								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -62,8 +69,10 @@
 					<div class="container">
 						<div class="banner_content text-center">
 							<h3>프렌차이즈 <br />유통추적</h3>
-							<input type="text" placeholder="검색어 입력" class="search" />
-							<a class="main_btn" href="#">검색</a>
+							<form class="js-toDoForm">
+								<input type="text" placeholder="검색어 입력" class="search" />
+								<button class="main_btn">Explore Gallery</button>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -73,66 +82,7 @@
         
         <!--================Home Blog Area =================-->
         <section class="home_blog_area pad_top">
-            <div class="container">         
-                <div class="text-square">
-                 <h1>BBQ에 대한 유통 정보입니다.</h1>
-                        </div>
-            </div>
-            <div class=container1>
-            <img class="img-fluid-1" src="img/home-blog/square_line.png" alt="">
-                        <div class="text-1">
-                          <h1>유통업체</h1>
-                          </div>
-                          <div class="text-2">
-                          <h1>본사</h1>
-                          </div>
-                          <div class="text-3">
-                          <h1>가맹점</h1>
-                          </div>
-                          <div class="text-4">
-                          <h1>양계장</h1>
-                          </div>
-            </div>
         	<div class="container">
-
-                    <div class="home_blog_inner">
-                      <div class="row h_blog_item"> 
-
-<!--
-    
-                        <div class="col-lg-6">
-                            <div class="h_blog_img">
--->
-                                
-                            <div class= "building-d">
-									<a class="nav-link" href="/farm"onclick="window.open(this.href,'','width=510, height=620, scrollbars=yes'); return false;">
-							<button class="building" id="btn" type="submit"><img class="img-fluid" src="img/home-blog/building.png">
-
-							</button>
-						</a>
-                            </div>
-                            
-                            <div class ="chicken-d">
-                             <button class="chicken" id="btn" type="submit"><img class="img-fluid" src="img/home-blog/chicken.png"></button>
-                            </div>
-                            
-                            <div class ="restaurant-d">
-                            <button class="restaurant" id="btn" type="submit" href="/login"onclick="window.open(this.href,'유통','width=510, height=620, scrollbars=yes'); return false;"><img class="img-fluid" src="img/home-blog/restaurant.png"></button>
-                            </div>
-                            
-                            <div class ="truck-d">
-                           <button class="truck" id="btn" type="submit"><img class="img-fluid" src="img/home-blog/truck.png"></button>
-                            </div>
-                            </div>
-                          </div>
-                    </div>
-<!--
-                </div>
-            </div>
--->
-      </section>
-            
-<!--
         		<div class="home_blog_inner">
         			<div class="row h_blog_item">
         				<div class="col-lg-6">
@@ -140,12 +90,14 @@
 								<img class="img-fluid" src="img/home-blog/h-blog-1.jpg" alt="">
 							</div>
 						</div>
-						<div class="col-l/log_text">
-				<div class="h_blog_text_inner center">
-									<h4>팀 알고먹자<br /></h4>
-									<p>
-                                    </p>
-									.<a class="main_btn2" href="#">더 알아보기</a>
+						<div class="col-lg-6">
+							<div class="h_blog_text">
+								<div class="h_blog_text_inner left">
+										<h4>팀 알고먹자</h4>
+										<p>박현준: 하이퍼레저 서버 구축
+                                        <br /> 전종혁: 서버연동 및 nodeJs
+                                        <br />김경동: html및 css javascript </p>
+									<a class="main_btn2" href="#">더 알아보기</a>
 								</div>
 							</div>
 						</div>
@@ -153,7 +105,7 @@
         			<div class="row h_blog_item">
 						<div class="col-lg-6">
 							<div class="h_blog_text">
-				            <div class="h_blog_text_inner right">
+								<div class="h_blog_text_inner right">
 									<h4>하이퍼레저란? <br /></h4>
 									<p>
                                     해킹을 방지하기 위해서 만든 블록체인의 일종으로
@@ -162,33 +114,28 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6"> 
+						<div class="col-lg-6">
 							<div class="h_blog_img">
-								<img class="img-fluid" src="img/home-blog/h-blog-2.jpg" alt="">
+								<img class="img-fluid" src="./img/home-blog/h-blog-2.jpg" alt="">
 							</div>
 						</div>
         			</div>
--->
-<!--
         			<div class="row h_blog_item">
         				<div class="col-lg-6">
 							<div class="h_blog_img">
 								<img class="img-fluid" src="img/home-blog/h-blog-3.jpg" alt="">
 							</div>
 						</div>
--->
-<!--
 						<div class="col-lg-6">
 							<div class="h_blog_text">
 								<div class="h_blog_text_inner left">
 									<h4>참여기업</h4>
 									<p> 알고 먹자 프로젝트에 참여한 기업들을 확인 하실수 있습니다.</p>
-									<a class="main_btn2" href="#">더 알아보기</a>
+									<a class="main_btn2" href="/bbq">더 알아보기</a>
 								</div>
 							</div>
 						</div>
--->
-<!--        			</div>-->
+        			</div>
 <!--
         			<div class="row h_blog_item">
 						<div class="col-lg-6">
@@ -207,7 +154,9 @@
 						</div>
         			</div>
 -->
-<!--        		</div>-->
+        		</div>
+        	</div>
+        </section>
         <!--================End Home Blog Area =================-->
         
         <!--================Service Area =================-->
@@ -225,7 +174,7 @@
         			</div>
         			<div class="col-lg-3 col-md-6 p0">
         				<div class="service_text">
-        					<h4>홈페이지 <br /></h4>
+        					<h4>웹페이지 <br /></h4>
         					<p>소비자들이 보기 쉽도록 하이퍼레저 네트워크를 홈페이지에연동 하였습니다.</p>
         				</div>
         			</div>
@@ -237,12 +186,12 @@
         			<div class="col-lg-3 col-md-6 p0">
         				<div class="service_text">
         					<h4><br />업체검색</h4>
-        					<p>저희 알고먹자 프로젝트에 참여한 업체들은 검색 기능을 이용해서 간편하게 조회가 가능합니다.</p>
-        				</div>
+							<p>저희 알고먹자 프로젝트에 참여한 업체들은 검색 기능을 이용해서 간편하게 조회가 가능합니다.</p>
+							</div>	
         			</div>
         			<div class="col-lg-3 col-md-6 p0">
         				<div class="service_text">
-        					<h4>온습도계 센서<br /></h4>
+							<h4>온습도계 센서<br /></h4>
         					<p>온습도계 센서를 이용한 유통과정 중 음식의 변질이 일어나면 역으로 추적할수 있도록 아두이노를 사용하여서 온습도 측정이 가능합니다.</p>
         				</div>
         			</div>
@@ -268,8 +217,7 @@
         <!--================End Service Area =================-->
         
         <!--================Feedback Area =================-->
-<!--
-        <section class="feedback_area pad_bt">
+        <!-- <section class="feedback_area pad_bt">
         	<div class="container">
         		<div class="feedback_inner p_100">
         			<div class="row">
@@ -324,13 +272,11 @@
         			</div>
         		</div>
         	</div>
-        </section>
--->
+        </section> -->
         <!--================End Feedback Area =================-->
         
         <!--================Instagram Area =================-->
-<!--
-        <section class="instagram_area">
+        <!-- <section class="instagram_area">
         	<div class="container box_1620">
         		<div class="insta_btn">
         			<a class="btn theme_btn" href="#">Follow us on instagram</a>
@@ -344,8 +290,7 @@
         			<a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a>
         		</div>
         	</div>
-        </section>
--->
+        </section> -->
         <!--================End Instagram Area =================-->
         
         <!--================Footer Area =================-->
@@ -355,11 +300,10 @@
         			<div class="col-lg-5 col-sm-6">
         				<aside class="f_widget ab_widget">
         					<div class="f_title">
-        						<h3>알고먹자</h3>
+        						<h3>팀 알고먹자</h3>
         					</div>
         					<p>팀 알고 먹자에서는 프렌차이즈 업체들의 유통과정을 소비자에게 투명하게 공개함으로써 소비자들의 프렌차이즈 신뢰도를 높이고, 프렌차이즈 업체들은 그로 인한 매출증대를 기대할수 있도록, 블록체인의 일종인 하이퍼레저 페브릭을 사용하여서 네트워크를 구축,
-사용자들이 보기 쉽게 웹페이지와 연동을 완료 하였다. 더 나아가서 유통 과정 조작 방지는 프렌차이즈 업체 뿐만 아니라 유통회사들 까지 위생적이고 투명하게 변화할 수 있을 것 이다.
-.</p>
+								사용자들이 보기 쉽게 웹페이지와 연동을 완료 하였다. 더 나아가서 유통 과정 조작 방지는 프렌차이즈 업체 뿐만 아니라 유통회사들 까지 위생적이고 투명하게 변화할 수 있을 것 이다.</p>
         					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -424,6 +368,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
         <script src="vendors/counter-up/jquery.counterup.js"></script>
         <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
+		<script src="js/theme.js"></script>
+		<script src="./js/search.js"></script>
     </body>
 </html>
