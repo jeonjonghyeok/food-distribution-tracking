@@ -1,13 +1,16 @@
 # 2019.11.21 CAPSTONE
-![file_type_html_icon_130541](https://user-images.githubusercontent.com/48907339/101142197-a0ef6e80-3658-11eb-8019-f9e7dde6d449.png)
 ## 프로젝트명:하이퍼레저를 이용한 유통 추적 시스템(웹페이지)
 
 ![algoscreen](https://user-images.githubusercontent.com/48907339/99373472-c95f3500-2904-11eb-845a-c092307bb75a.png)
 
-- 참가자 명단 및 담당파트
+
+## 사용기술
+
+![html_original_wordmark_logo_icon_146478](https://user-images.githubusercontent.com/48907339/101194205-049d8a00-36a1-11eb-8fa9-498a9603d45b.png)![css_original_wordmark_logo_icon_146576](https://user-images.githubusercontent.com/48907339/101194211-06ffe400-36a1-11eb-8615-0a3d352bd73c.png)![file_type_js_official_icon_130509](https://user-images.githubusercontent.com/48907339/101194729-b6d55180-36a1-11eb-88b0-f3c91df05e55.png)![nodejs_plain_wordmark_logo_icon_146410](https://user-images.githubusercontent.com/48907339/101194757-c05eb980-36a1-11eb-8f4e-0c571ab197f0.png)![file_type_vscode_icon_130084](https://user-images.githubusercontent.com/48907339/101195939-770f6980-36a3-11eb-9056-6369e19696ff.png)
+
+## 참가자 명단 및 담당파트
 
 - 김경동
-
 1. HTML,CSS,JS 프론트엔드 역할 수행
 2. Node.js 생성 및 개발
 
