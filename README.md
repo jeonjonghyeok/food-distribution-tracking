@@ -6,7 +6,8 @@
 
 ## 사용기술
 
-![html_original_wordmark_logo_icon_146478](https://user-images.githubusercontent.com/48907339/101194205-049d8a00-36a1-11eb-8fa9-498a9603d45b.png)![css_original_wordmark_logo_icon_146576](https://user-images.githubusercontent.com/48907339/101194211-06ffe400-36a1-11eb-8615-0a3d352bd73c.png)![file_type_js_official_icon_130509](https://user-images.githubusercontent.com/48907339/101194729-b6d55180-36a1-11eb-88b0-f3c91df05e55.png)![nodejs_plain_wordmark_logo_icon_146410](https://user-images.githubusercontent.com/48907339/101194757-c05eb980-36a1-11eb-8f4e-0c571ab197f0.png)![file_type_vscode_icon_130084](https://user-images.githubusercontent.com/48907339/101195939-770f6980-36a3-11eb-9056-6369e19696ff.png)
+![html_original_wordmark_logo_icon_146478](https://user-images.githubusercontent.com/48907339/101194205-049d8a00-36a1-11eb-8fa9-498a9603d45b.png)![css_original_wordmark_logo_icon_146576](https://user-images.githubusercontent.com/48907339/101194211-06ffe400-36a1-11eb-8615-0a3d352bd73c.png)![file_type_js_official_icon_130509](https://user-images.githubusercontent.com/48907339/101194729-b6d55180-36a1-11eb-88b0-f3c91df05e55.png)![jquery_original_wordmark_logo_icon_146447](https://user-images.githubusercontent.com/48907339/101198550-fa7e8a00-36a6-11eb-8e6d-cbbf88792b99.png)![nodejs_plain_wordmark_logo_icon_146410](https://user-images.githubusercontent.com/48907339/101194757-c05eb980-36a1-11eb-8f4e-0c571ab197f0.png)![file_type_vscode_icon_130084](https://user-images.githubusercontent.com/48907339/101195939-770f6980-36a3-11eb-9056-6369e19696ff.png)
+
 
 ## 참가자 명단 및 담당파트
 
