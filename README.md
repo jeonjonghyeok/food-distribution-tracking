@@ -1,6 +1,10 @@
 # 2019.11.21 CAPSTONE
 ## 프로젝트명:하이퍼레저를 이용한 유통 추적 시스템(웹페이지)
 
+```
+간단한 구현화면
+```
+
 ![algoscreen](https://user-images.githubusercontent.com/48907339/99373472-c95f3500-2904-11eb-845a-c092307bb75a.png)
 
 ## 프로젝트 개요
